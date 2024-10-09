@@ -1,4 +1,4 @@
-/* SITE STYLING */
+/* UNIVERSAL STYLING */
 
 * {
     margin: 0;
@@ -120,5 +120,58 @@ body {
 
 #pageSevenSubtext {
     color: #898989;
+    text-decoration: none;
+}
+
+/* PAGE EIGHT */
+
+#pageEight {
+    background-color: black;
+}
+
+#pageEightText {
+    color: white;
+}
+
+#pageEightLink {
+    color: white;
+    text-decoration: none;
+}
+
+.zero {
+    background-color: white;
+}
+
+/* PAGE NINE */
+
+#pageNine {
+    background-color: black;
+}
+
+#pageNineText {
+    color: white;
+}
+
+#pageNineLink {
+    color: white;
+    text-decoration: none;
+}
+
+#oops {
+    color: white;
+}
+
+/* PAGE TEN */
+
+#pageTen {
+    background-color: black;
+}
+
+#pageTenText {
+    color: white;
+}
+
+#pageTenLink {
+    color: white;
     text-decoration: none;
 }
