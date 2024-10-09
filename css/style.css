@@ -1,0 +1,124 @@
+/* SITE STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-top: 22%;
+}
+
+/* PAGE ONE */
+
+#pageOne {
+    background-color: black;
+}
+
+#pageOneText {
+    color: white;
+}
+
+#pageOneText a {
+    text-decoration: none;
+    color: white;
+}
+
+/* PAGE TWO */
+
+#pageTwo {
+    background-color: black;
+}
+
+#pageTwoText {
+    color: white;
+}
+
+#pageTwoText a {
+    text-decoration: none;
+    color: white;
+}
+
+/* PAGE THREE */
+
+#pageThree {
+    background-image: radial-gradient(#f3e18a, #2E4CA6);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100dvh
+}
+
+#pageThree a {
+    text-decoration: none;
+}
+
+#pageThreeText {
+    color: black;
+}
+
+/* PAGE FOUR */
+
+#pageFour {
+    background-color: #f3e18a;
+}
+
+#pageFourText {
+    color: #7408C2;
+}
+
+#pageFourText a {
+    color: #7408C2;
+    text-decoration: none;
+}
+
+/* PAGE FIVE */
+
+#pageFive {
+    background-color: white;
+
+}
+
+#pageFiveText {
+    color: #7408C2;
+}
+
+#purple {
+    color: #7408C2;
+    text-decoration: none;
+}
+
+/* PAGE SIX */
+
+#pageSix {
+    background-color: #7408C2;
+}
+
+.pageSixText {
+    color: white;
+    text-align: center;
+}
+
+#pageSixLink {
+    color: white;
+    text-decoration: none;
+}
+
+/* PAGE SEVEN */
+
+#pageSeven {
+    background-color: black;
+}
+
+#pageSevenText {
+    color: white;
+}
+
+#pageSevenSubtext {
+    color: #898989;
+    text-decoration: none;
+}
