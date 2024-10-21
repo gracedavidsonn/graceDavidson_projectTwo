@@ -11,7 +11,34 @@ body {
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    margin-top: 22%;
+    margin-top: 20%;
+
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* CREDIT PAGE */
+
+#creditPage {
+    background-color: black;
+    margin-top: 10%;
+}
+
+#creditPageText {
+    color: white;
+}
+
+#creditPageText a {
+    color: #7408C2;
+    text-decoration: none;
+    font-size: 400px;
+    line-height: 375px;
+}
+
+#creditPageText a:hover {
+    color: white;
 }
 
 /* PAGE ONE */
@@ -26,7 +53,9 @@ body {
 
 #pageOneText a {
     text-decoration: none;
-    color: white;
+    color: rgb(166, 183, 250);
+    font-family: 'Rubik Bubbles';
+    font-size: 100px;
 }
 
 /* PAGE TWO */
@@ -42,6 +71,7 @@ body {
 #pageTwoText a {
     text-decoration: none;
     color: white;
+    font-family: 'Rubik Glitch';
 }
 
 /* PAGE THREE */
@@ -50,7 +80,7 @@ body {
     background-image: radial-gradient(#f3e18a, #2E4CA6);
     background-repeat: no-repeat;
     background-position: top;
-    height: 100dvh
+    height: 100dvh;
 }
 
 #pageThree a {
@@ -78,7 +108,7 @@ body {
 
 /* PAGE FIVE */
 
-#pageFive {
+.pageFive {
     background-color: white;
 
 }
@@ -90,6 +120,18 @@ body {
 #purple {
     color: #7408C2;
     text-decoration: none;
+    font-size: 100px;
+    line-height: 90px;
+}
+
+#purple:hover {
+    color: white;
+    background-color: #7408C2;
+}
+
+#purple:hover body {
+    color: white;
+    background-color: #7408C2;
 }
 
 /* PAGE SIX */
@@ -106,27 +148,39 @@ body {
 #pageSixLink {
     color: white;
     text-decoration: none;
+    font-family: 'Rubik Glitch';
+    font-size: 50px;
+
 }
 
 /* PAGE SEVEN */
 
 #pageSeven {
     background-color: black;
+    font-size: 25px;
 }
 
 #pageSevenText {
     color: white;
 }
 
+#destruction {
+    font-family: 'Rubik Burned';
+    color: white;
+}
+
 #pageSevenSubtext {
     color: #898989;
     text-decoration: none;
+    padding-top: 15%;
 }
 
 /* PAGE EIGHT */
 
 #pageEight {
     background-color: black;
+    margin-top: 10%;
+    position:relative;
 }
 
 #pageEightText {
@@ -136,10 +190,25 @@ body {
 #pageEightLink {
     color: white;
     text-decoration: none;
+    font-size: 200px;
+    position: absolute;
+
 }
 
-.zero {
+#zeroOne {
     background-color: white;
+    position: absolute;
+    top: 260px;
+    left: 780px;
+    font-size: 50px;
+}
+
+#zeroTwo {
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    left: 1040px;
+    font-size: 50px;
 }
 
 /* PAGE NINE */

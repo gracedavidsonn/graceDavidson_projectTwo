@@ -12,4 +12,5 @@ To navigate through the song lyrics, users will click on the highlighted word on
 
 # Acknowledgements
 
+Song Credit: <a href="https://youtu.be/rblt2EtFfC4?feature=shared">Prince - 1999</a>
  
