@@ -8,7 +8,7 @@ When I think of what community means to me, I think of my family, close friends,
 
 # Technical Overview
 
-I decided to design the lyrics by splitting them across ten pages. Dynamic words in the lyrics are emphasized through color and movement. To navigate through the song lyrics, users  click on the emphasized word(s) on each page. On pages with more than one emphasized line of text, I originally only linked what I thought was the most important part of the lyric but I later changed my mind and linked both emphasized parts so that the user can follow the lyrics as they speak to them.
+I decided to design the lyrics by splitting them across ten pages. Dynamic words in the lyrics are emphasized through fonts, color and movement. To navigate through the song lyrics, users click on the emphasized word(s) on each page. On pages with more than one emphasized line of text, I originally only linked what I thought was the most important part of the lyric but I later changed my mind and linked both emphasized parts so that the user can follow the lyrics as they speak to them.
 
 # Acknowledgements
 

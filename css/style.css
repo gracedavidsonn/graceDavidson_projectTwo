@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLING */
+/********* UNIVERSAL STYLING *********/
 
 * {
     margin: 0;
@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-/* CREDIT PAGE */
+/********* CREDIT PAGE *********/
 
 #creditPage {
     background-color: black;
@@ -42,7 +42,7 @@ body {
     color: white;
 }
 
-/* PAGE ONE */
+/********* PAGE ONE *********/
 
 #pageOne {
     background-color: black;
@@ -82,8 +82,7 @@ body {
     }
 }
 
-
-/* PAGE TWO */
+/********* PAGE TWO *********/
 
 #pageTwo {
     background-color: black;
@@ -103,7 +102,6 @@ body {
 
 #goes:hover {
     transform: translate(-1000px, 0px);
-
 }
 
 #astray {
@@ -112,15 +110,13 @@ body {
     font-size: 50px;
     font-family: 'Rubik Glitch', Arial, Helvetica, sans-serif;
     transition-duration: 2s;
-
 }
 
 #astray:hover {
     transform: translate(1000px, 0px);
-
 }
 
-/* PAGE THREE */
+/********* PAGE THREE *********/
 
 #pageThree {
     background-color: #2E4CA6;
@@ -135,7 +131,6 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-play-state:running;
-
 }
 
 @keyframes morning {
@@ -161,10 +156,7 @@ body {
     color:rgb(249, 242, 217);
 }
 
-
-/*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
-
-/* PAGE FOUR */
+/********* PAGE FOUR *********/
 
 #pageFour {
     background-color:#f3e18a;
@@ -179,7 +171,6 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-play-state: running;
-
 }
 
 @keyframes day {
@@ -199,18 +190,16 @@ body {
     color: #7408C2;
     text-decoration: none;
     transition-duration: 2s;
-
 }
 
 #pageFourText a:hover {
     color: black;
 }
 
-/* PAGE FIVE */
+/********* PAGE FIVE *********/
 
 .pageFive {
     background-color: white;
-
 }
 
 #pageFiveText {
@@ -237,7 +226,7 @@ body {
     color: white;
 }
 
-/* PAGE SIX */
+/********* PAGE SIX *********/
 
 #pageSix {
     background-color: #7408C2;
@@ -263,10 +252,9 @@ body {
 
 #pageSixLink:hover {
     transform: translate(1000px, 0px);
-
 }
 
-/* PAGE SEVEN */
+/********* PAGE SEVEN *********/
 
 #pageSeven {
     background-color: black;
@@ -301,7 +289,7 @@ body {
 }
 /*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
 
-/* PAGE EIGHT */
+/********* PAGE EIGHT *********/
 
 #pageEight {
     background-color: black;
@@ -368,7 +356,7 @@ body {
     }
 }
 
-/* PAGE NINE */
+/********* PAGE NINE *********/
 
 #pageNine {
     background-color: black;
@@ -402,9 +390,9 @@ body {
     color:black;
     text-shadow: 0 0 20px rgb(255, 0, 0);
 }
-/*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+/* text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp */
 
-/* PAGE TEN */
+/********* PAGE TEN *********/
 
 #pageTen {
     background-color: black;
