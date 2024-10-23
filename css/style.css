@@ -64,6 +64,7 @@ body {
     color: rgb(166, 183, 250);
     font-family: 'Rubik Bubbles', Arial, Helvetica, sans-serif;
     font-size: 100px;
+    transition-duration: 2s;
 
     animation-name: dreaminGrow;
     animation-direction: normal;
@@ -71,6 +72,10 @@ body {
     animation-iteration-count: infinite;
     animation-play-state: running;
 
+}
+
+#pageOneLink:hover {
+    color: white;
 }
 
 @keyframes dreaminGrow {
