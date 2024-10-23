@@ -35,6 +35,7 @@ body {
     text-decoration: none;
     font-size: 400px;
     line-height: 375px;
+    transition-duration: 1s;
 }
 
 #creditPageText a:hover {
@@ -45,18 +46,42 @@ body {
 
 #pageOne {
     background-color: black;
+    margin-top: 15%;
 }
 
 #pageOneText {
     color: white;
 }
 
-#pageOneText a {
+#pageOneTextTwo {
+    color:white;
+    position: absolute;
+    top: 60%;
+}
+
+#pageOneLink {
     text-decoration: none;
     color: rgb(166, 183, 250);
     font-family: 'Rubik Bubbles', Arial, Helvetica, sans-serif;
     font-size: 100px;
+
+    animation-name: dreaminGrow;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
 }
+
+@keyframes dreaminGrow {
+    from {
+        font-size: 110px;
+    }
+    to {
+        font-size: 105px;
+    }
+}
+
 
 /* PAGE TWO */
 
@@ -68,33 +93,102 @@ body {
     color: white;
 }
 
-#pageTwoText a {
+#goes {
     text-decoration: none;
     color: white;
+    font-size: 50px;
     font-family: 'Rubik Glitch', Arial, Helvetica, sans-serif;
+    transition-duration: 2s;
+}
+
+#goes:hover {
+    transform: translate(-1000px, 0px);
+
+}
+
+#astray {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-family: 'Rubik Glitch', Arial, Helvetica, sans-serif;
+    transition-duration: 2s;
+
+}
+
+#astray:hover {
+    transform: translate(1000px, 0px);
+
 }
 
 /* PAGE THREE */
 
 #pageThree {
-    background-image: radial-gradient(#f3e18a, #2E4CA6);
+    background-color: #2E4CA6;
     background-repeat: no-repeat;
     background-position: top;
     height: 100dvh;
+    margin-top: 22%;
+
+    animation-name: morning;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state:running;
+
 }
 
-#pageThree a {
-    text-decoration: none;
+@keyframes morning {
+    from {
+        background-color: #2E4CA6;
+    }
+    to {
+        background-image: radial-gradient(#f3e18a, #2E4CA6);
+    }
 }
 
 #pageThreeText {
     color: black;
 }
 
+#pageThreeText a {
+    color: black;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+#pageThreeText a:hover {
+    color:rgb(249, 242, 217);
+}
+
+
+/*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+
 /* PAGE FOUR */
 
 #pageFour {
-    background-color: #f3e18a;
+    background-color:#f3e18a;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100dvh;
+    margin-top: 22%;
+
+    animation-name: day;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+}
+
+@keyframes day {
+    from {
+        background-image: radial-gradient(#f3e18a, #2E4CA6);
+    }
+    to {
+        background-image:#f3e18a;
+    }
 }
 
 #pageFourText {
@@ -104,6 +198,12 @@ body {
 #pageFourText a {
     color: #7408C2;
     text-decoration: none;
+    transition-duration: 2s;
+
+}
+
+#pageFourText a:hover {
+    color: black;
 }
 
 /* PAGE FIVE */
@@ -124,14 +224,17 @@ body {
     line-height: 90px;
 }
 
-#purple:hover {
+.pageFive:hover {
     color: white;
     background-color: #7408C2;
 }
 
-#purple:hover body {
+.pageFive:hover #pageFiveText {
     color: white;
-    background-color: #7408C2;
+}
+
+.pageFive:hover #purple {
+    color: white;
 }
 
 /* PAGE SIX */
@@ -140,9 +243,14 @@ body {
     background-color: #7408C2;
 }
 
+#pageSix a {
+    text-decoration: none;
+}
+
 .pageSixText {
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 
 #pageSixLink {
@@ -150,6 +258,11 @@ body {
     text-decoration: none;
     font-family: 'Rubik Glitch', Arial, Helvetica, sans-serif;
     font-size: 50px;
+    transition-duration: 2s;
+}
+
+#pageSixLink:hover {
+    transform: translate(1000px, 0px);
 
 }
 
@@ -167,13 +280,26 @@ body {
 #destruction {
     font-family: 'Rubik Burned', Arial, Helvetica, sans-serif;
     color: white;
+    text-decoration: none;
+    font-size: 70px;
+    transition-duration: 3s;
+}
+
+#destruction:hover {
+    transform: rotate(360deg) scale(2);
 }
 
 #pageSevenSubtext {
-    color: #898989;
+    color: #787878;
     text-decoration: none;
     padding-top: 15%;
 }
+
+#pageSevenSubtext:hover {
+    color:#7408C2;
+    text-shadow: 0 0 30px #ac5de3;
+}
+/*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
 
 /* PAGE EIGHT */
 
@@ -192,7 +318,6 @@ body {
     text-decoration: none;
     font-size: 200px;
     position: absolute;
-
 }
 
 #zeroOne {
@@ -201,6 +326,22 @@ body {
     top: 260px;
     left: 780px;
     font-size: 50px;
+
+    animation-name: zeroOne;
+    animation-direction: normal;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes zeroOne {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #zeroTwo {
@@ -209,6 +350,22 @@ body {
     top: 260px;
     left: 1040px;
     font-size: 50px;
+
+    animation-name: zeroTwo;
+    animation-direction: normal;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes zeroTwo {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 /* PAGE NINE */
@@ -219,28 +376,79 @@ body {
 
 #pageNineText {
     color: white;
+    font-size: 50px;
 }
 
 #pageNineLink {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-size: 75px;
+    padding-top: 2%;
+    transition-duration: 3s;
 }
 
-#oops {
-    color: white;
+.oops {
+    color: rgb(255, 2, 2);
+    font-size: 55px;
+    text-decoration: none;
+    transition-duration: 2s;
 }
+
+.oops:hover {
+    transform: rotate(360deg) scale(1.5);
+}
+
+#pageNine:hover #pageNineLink {
+    color:black;
+    text-shadow: 0 0 20px rgb(255, 0, 0);
+}
+/*text-shadow credit: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
 
 /* PAGE TEN */
 
 #pageTen {
     background-color: black;
+    margin-top: 6%;
 }
 
 #pageTenText {
     color: white;
+    font-size: 50px;
+}
+
+#party {
+    display: inline;
+    transition-duration: 2s;
+}
+
+#party:hover {
+    transform: rotate(400deg) scale(1.5);
 }
 
 #pageTenLink {
-    color: white;
+    color:#7408C2;
     text-decoration: none;
+    font-size: 400px;
+    line-height: 350px;
+
+    animation-name: flash;
+    animation-direction: normal;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes flash {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#pageTenLink:hover {
+    animation-play-state: paused;
 }
